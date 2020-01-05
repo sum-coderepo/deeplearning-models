@@ -14,7 +14,10 @@ A collection of various deep learning architectures, models, and tips for Tensor
 &nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/basic-ml/logistic-regression.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/basic-ml/logistic-regression.ipynb)]
 - Softmax Regression (Multinomial Logistic Regression)  
 &nbsp;&nbsp; [TensorFlow 1: [GitHub](tensorflow1_ipynb/basic-ml/softmax-regression.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/basic-ml/softmax-regression.ipynb)]   
-&nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/basic-ml/softmax-regression.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/basic-ml/softmax-regression.ipynb)]
+&nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/basic-ml/softmax-regression.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/basic-ml/softmax-regression.ipynb)]  
+- Softmax Regression with MLxtend's plot_decision_regions on Iris  
+&nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/basic-ml/softmax-regression-mlxtend-1.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/basic-ml/softmax-regression-mlxtend-1.ipynb)]
+
 
 ## Multilayer Perceptrons
 
@@ -59,7 +62,9 @@ A collection of various deep learning architectures, models, and tips for Tensor
 - LeNet-5 on MNIST   
 &nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/cnn/cnn-lenet5-mnist.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-lenet5-mnist.ipynb)]
 - LeNet-5 on CIFAR-10   
-&nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/cnn/cnn-lenet5-cifar10.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-lenet5-cifar10.ipynb)]
+&nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/cnn/cnn-lenet5-cifar10.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-lenet5-cifar10.ipynb)]  
+- LeNet-5 on QuickDraw  
+&nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/cnn/cnn-lenet5-quickdraw.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-lenet5-quickdraw.ipynb)]
 
 #### AlexNet
 
@@ -93,6 +98,8 @@ A collection of various deep learning architectures, models, and tips for Tensor
 &nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/cnn/cnn-resnet18-celeba-dataparallel.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-resnet18-celeba-dataparallel.ipynb)]
 - ResNet-34 Digit Classifier Trained on MNIST   
 &nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/cnn/cnn-resnet34-mnist.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-resnet34-mnist.ipynb)]
+- ResNet-34 Object Classifier Trained on QuickDraw  
+&nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/cnn/cnn-resnet34-quickdraw.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-resnet34-quickdraw.ipynb)]
 - ResNet-34 Gender Classifier Trained on CelebA   
 &nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/cnn/cnn-resnet34-celeba-dataparallel.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/cnn-resnet34-celeba-dataparallel.ipynb)]
 - ResNet-50 Digit Classifier Trained on MNIST   
@@ -111,6 +118,14 @@ A collection of various deep learning architectures, models, and tips for Tensor
 - Network in Network CIFAR-10 Classifier   
 &nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/cnn/nin-cifar10.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/nin-cifar10.ipynb)]  
 
+## Normalization Layers
+
+- BatchNorm before and after Activation for Network-in-Network CIFAR-10 Classifier     
+&nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/cnn/nin-cifar10_batchnorm.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/nin-cifar10_batchnorm.ipynb)]  
+- Filter Response Normalization for Network-in-Network CIFAR-10 Classifier  
+&nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/cnn/nin-cifar10_filter-response-norm.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/cnn/nin-cifar10_filter-response-norm.ipynb)] 
+
+
 
 ## Metric Learning
 
@@ -121,15 +136,22 @@ A collection of various deep learning architectures, models, and tips for Tensor
 
 #### Fully-connected Autoencoders
 
-- Autoencoder   
+- Autoencoder (MNIST)  
 &nbsp;&nbsp; [TensorFlow 1: [GitHub](tensorflow1_ipynb/autoencoder/ae-basic.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/autoencoder/ae-basic.ipynb)]  
 &nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/autoencoder/ae-basic.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/autoencoder/ae-basic.ipynb)]
+- Autoencoder (MNIST) + Scikit-Learn Random Forest Classifier  
+&nbsp;&nbsp; [TensorFlow 1: [GitHub](tensorflow1_ipynb/autoencoder/ae-basic-with-rf.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/autoencoder/ae-basic.ipynb)]  
+&nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/autoencoder/ae-basic-with-rf.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/autoencoder/ae-basic.ipynb)]
+
+
 
 #### Convolutional Autoencoders
 
 - Convolutional Autoencoder with Deconvolutions / Transposed Convolutions  
 &nbsp;&nbsp; [TensorFlow 1: [GitHub](tensorflow1_ipynb/autoencoder/ae-deconv.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/tensorflow1_ipynb/autoencoder/ae-deconv.ipynb)]  
 &nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/autoencoder/ae-deconv.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/autoencoder/ae-deconv.ipynb)]
+- Convolutional Autoencoder with Deconvolutions and Continuous Jaccard Distance  
+&nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/autoencoder/ae-deconv-jaccard.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/autoencoder/ae-deconv-jaccard.ipynb)]
 - Convolutional Autoencoder with Deconvolutions (without pooling operations)   
 &nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/autoencoder/ae-deconv-nopool.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/autoencoder/ae-deconv-nopool.ipynb)]
 - Convolutional Autoencoder with Nearest-neighbor Interpolation   
@@ -202,6 +224,13 @@ A collection of various deep learning architectures, models, and tips for Tensor
 &nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/rnn/rnn_gru_packed_imdb.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/rnn/rnn_gru_packed_imdb.ipynb)]
 - Multilayer bi-directional RNN (IMDB)   
 &nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/rnn/rnn_gru_packed_imdb.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/rnn/rnn_gru_packed_imdb.ipynb)]
+- Bidirectional Multi-layer RNN with LSTM with Own Dataset in CSV Format (AG News)     
+&nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/rnn/rnn_bi_multilayer_lstm_own_csv_agnews.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/rnn/rnn_bi_multilayer_lstm_own_csv_agnews.ipynb)]
+- Bidirectional Multi-layer RNN with LSTM with Own Dataset in CSV Format (Yelp Review Polarity)     
+&nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/rnn/rnn_bi_multilayer_lstm_own_csv_yelp-polarity.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/rnn/rnn_bi_multilayer_lstm_own_csv_yelp-polarity.ipynb)]
+- Bidirectional Multi-layer RNN with LSTM with Own Dataset in CSV Format (Amazon Review Polarity)   
+&nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/rnn/rnn_bi_multilayer_lstm_own_csv_amazon-polarity.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/rnn/rnn_bi_multilayer_lstm_own_csv_amazon-polarity.ipynb)]
+
 
 #### Many-to-Many / Sequence-to-Sequence
 
@@ -220,10 +249,6 @@ A collection of various deep learning architectures, models, and tips for Tensor
 &nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/ordinal/ordinal-cnn-beckham2016-afadlite.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/ordinal/ordinal-cnn-beckham2016-afadlite.ipynb)]
 
 
-
-
-
-
 ## Tips and Tricks
 
 - Cyclical Learning Rate   
@@ -234,11 +259,18 @@ A collection of various deep learning architectures, models, and tips for Tensor
 &nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/tricks/gradclipping_mlp.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/tricks/gradclipping_mlp.ipynb)]
 
 
+## Transfer Learning
+
+- Transfer Learning Example (VGG16 pre-trained on ImageNet for Cifar-10)
+
+&nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/transfer/transferlearning-vgg16-cifar10-1.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/transfer/transferlearning-vgg16-cifar10-1.ipynb)]
 
 ## PyTorch Workflows and Mechanics
 
 #### Custom Datasets
 
+- Custom Data Loader Example for PNG Files  
+&nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/mechanics/custom-dataloader-png/custom-dataloader-example.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/mechanics/custom-dataloader-png/custom-dataloader-example.ipynb)]
 - Using PyTorch Dataset Loading Utilities for Custom Datasets -- CSV files converted to HDF5   
 &nbsp;&nbsp; [PyTorch: [GitHub](pytorch_ipynb/mechanics/custom-data-loader-csv.ipynb) | [Nbviewer](https://nbviewer.jupyter.org/github/rasbt/deeplearning-models/blob/master/pytorch_ipynb/mechanics/custom-data-loader-csv.ipynb)]
 - Using PyTorch Dataset Loading Utilities for Custom Datasets -- Face Images from CelebA   
